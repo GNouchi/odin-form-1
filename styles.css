@@ -114,3 +114,15 @@ button:hover{
 a.alt-path{
     color: #8085dd;
 }
+
+.social{
+    height: 1rem;
+    width: 1rem;
+}
+.repo{
+    text-decoration: none;
+    color: green;
+}
+.repo:hover{
+    color: greenyellow;
+}
