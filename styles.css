@@ -14,7 +14,7 @@ body{
 }
 .left-container{
     min-width: 30%;
-    background-image: url(/fauna2.png);
+    background-image: url("fauna2.png");
     background-position: 50% 0%;
     background-color: #161729;
     background-repeat: no-repeat;
