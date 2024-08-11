@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+        <div class="left-container">
+            <header>
+                <h1 class="header-text">Space Saplings</h1>
+            </header>
+        </div>
+
+    <div class="right-container">
+
+        <div class="top main">
+            <p>
+                You are not alone.
+            </p>
+            <p>
+                Join us in search of the lost astro girl.  <br>
+                Relive Felspar's harmonica, fend off endless Kronii's, save Ina from the bad timeline.
+            </p>
+            <p>
+                Put on your bald cap, pack your banana🍌, this Kirin's going to space🚀!
+            </p>
+        </div>
+        <div class="middle main">
+            <h3 id="cta">Call to Action!</h3>
+            <form action="" method="post">
+
+                <div class="card">
+                    <label for="fname">First Name</label>
+                    <input type="text" required name="fname" placeholder="First...">
+                </div>
+                <div class="card">
+                    <label for="lname">Last Name</label>
+                    <input type="text" name="lname" placeholder="Last...">
+                </div>
+
+                <div class="card">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" name="phone" placeholder="888-888-8888" 
+                    pattern="^[0-9]{10}$"
+                    >
+                </div>                
+                <div class="card">
+                    <label for="email">Email</label>
+                    <input type="email" required name="email" id="" placeholder="Required">
+                </div>
+
+                <div class="card">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="" placeholder="Required (numeric 8-digits)"
+                    pattern="^[0-9]{4,8}$"
+                    >
+                </div>
+                <div class="card">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" required name="confirm-password" id="" placeholder="Retype password..."
+                    pattern="^[0-9]{4,8}$"
+                    >
+                </div>
+
+            </form>
+        </div>
+        <div class="bottom main">
+            <button type="submit" value="">Create Account</button>
+            <div class="alt-path">
+                <p class="alt-path">Already have an account? <a class="alt-path" href="">Log In</a></p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
